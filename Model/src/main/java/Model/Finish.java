@@ -7,6 +7,10 @@ public class Finish {
 
     public Image finish,finish2;
 
+    /*
+     *le constructeur qui permet d'imprimer les image de la fin
+     * @author Group1
+     */
     public Finish() {
 
         ImageIcon img = new ImageIcon("C://Users//LATITUDE//Desktop//Try//F3.png");

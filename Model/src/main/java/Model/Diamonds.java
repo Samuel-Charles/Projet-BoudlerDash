@@ -10,6 +10,11 @@ public class Diamonds {
     public Image diamond2;
     public Image diam1,diam2,diam3,diam4,diam5,diam6,diam7,diam8,diam9,diam10,diam11,diam12,diam13,diam14,diam15;
 
+
+    /*
+    *le constructeur qui permet d'imprimer les image du sol
+    * @author Group1
+     */
     public Diamonds() {
         ImageIcon img = new ImageIcon("C://Users//LATITUDE//Desktop//Try//DI2.png");
         diamond = img.getImage();

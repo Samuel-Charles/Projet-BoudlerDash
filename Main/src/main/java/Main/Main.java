@@ -7,6 +7,10 @@ import java.awt.*;
 
 public class Main extends JFrame {
 
+    /*
+    *Le main de notre projet
+    * @author Group1
+     */
     public static void main(String[] args) {
         new Main();
 

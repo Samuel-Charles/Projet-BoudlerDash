@@ -16,6 +16,10 @@ public class Player {
 
     private String direction;
 
+    /*
+    *le constructeur de notre joueur
+    * @author Group1
+     */
     public Player() {
         ImageIcon img = new ImageIcon("C://Users//LATITUDE//Desktop//Try//droit.png");
         player = img.getImage();

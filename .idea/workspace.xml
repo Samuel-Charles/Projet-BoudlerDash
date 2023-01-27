@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a11226de-3fe1-49f6-8351-a0a8dd0f05dc" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="a11226de-3fe1-49f6-8351-a0a8dd0f05dc" name="Changes" comment="new">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/src/main/java/Entity/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/src/main/java/Entity/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/src/main/java/Entity/try1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/src/main/java/Entity/try1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/main/java/Main/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/View/src/main/java/View/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/main/java/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/View/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/src/main/java/View/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Model/Diamonds.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Model/Diamonds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Model/Finish.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Model/Finish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Model/Ground.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Model/Ground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Model/Walls.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Model/Walls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/Controller/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/Controller/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "14",
-    "last_opened_file_path": "C:/Users/LATITUDE/Downloads/mysql-connector-java-8.0.30 (1).jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;14&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LATITUDE/Downloads/mysql-connector-java-8.0.30 (1).jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LATITUDE\eclipse-workspace\Projet\test" />
@@ -88,7 +88,9 @@
       <updated>1674798949712</updated>
       <workItem from="1674798962156" duration="2000" />
       <workItem from="1674803749133" duration="3833000" />
-      <workItem from="1674813911808" duration="6201000" />
+      <workItem from="1674813911808" duration="6774000" />
+      <workItem from="1674824467992" duration="874000" />
+      <workItem from="1674827642489" duration="1746000" />
     </task>
     <task id="LOCAL-00001" summary="BoudlerDash">
       <created>1674818274233</created>
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674819779498</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new">
+      <created>1674822276304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674822276304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +152,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BoudlerDash" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

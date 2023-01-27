@@ -8,6 +8,10 @@ public class Walls {
     public Image wall;
     public Image wall2;
 
+    /*
+     *le constructeur qui permet d'imprimer les image du mur
+     * @author Group1
+     */
     public Walls() {
 
         ImageIcon img = new ImageIcon("C://Users//LATITUDE//Desktop//Try//wall.png");

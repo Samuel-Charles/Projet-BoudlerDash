@@ -10,6 +10,10 @@ public class Ground {
 
     public Image dig1,dig2,dig3,dig4,dig5,dig6,dig7,dig8,dig9,dig10,dig11,dig12,dig13,dig14,dig15,dig16,dig17,dig18,dig19,dig20,dig21,dig22,dig23,dig24,dig25,dig26,dig27,dig28;
 
+    /*
+     *le constructeur qui permet d'imprimer les image du sol
+     * @author Group1
+     */
     public Ground() {
 
         ImageIcon img = new ImageIcon("C://Users//LATITUDE//Desktop//Try//ground.png");
