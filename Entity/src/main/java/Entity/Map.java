@@ -21,6 +21,9 @@ public class Map {
     int x,y;
     public int a;
 
+    /*
+    *@author Group1
+     */
 
     public Map() {
         //t= new try1();
@@ -72,6 +75,10 @@ public class Map {
         return index;
     }
 
+    /*
+    *Nos diferents getters et setters
+    * @see
+     */
     public int getTileX() {
         return tilex;
     }
@@ -110,6 +117,10 @@ public class Map {
     }
 
 
+    /*
+    *Methode qui ouvre notre fichier txt et renvoie une error si ne peut le lire
+    * @see
+     */
     public void openfile() {
 
 
@@ -130,11 +141,19 @@ public class Map {
 
 
     }
+    /*
+    *notre getter qui recupere la valeur de la map qu'on sauvegarder dans notre BDD
+    * @see
+     */
     public int getA() {
         System.out.println(a);
         return a;
     }
 
+    /*
+    *la methode qui lit notre fichier txt
+    * @see
+     */
     public void readfile() {
 		/*if ( a =="1") {
 

@@ -3,7 +3,7 @@ package Entity;
 
 //import javax.comm.*;
 
-//import com.mysql.cj.xdevapi.Statement;
+import com.mysql.cj.xdevapi.Statement;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -27,6 +27,11 @@ public class try1 {
         this.statement = null;
     }
 
+
+    /*
+    *Voici la method qui permet louverture et l'insertion des données dans notre bdd
+    * @authors Group1
+     */
     public  void open() {
         //m.ask();
         m = new Map();

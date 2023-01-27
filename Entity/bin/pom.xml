@@ -9,11 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Main</artifactId>
+    <artifactId>Entity</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>controller</artifactId>
+            <artifactId>Main</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
@@ -23,21 +23,7 @@
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>Model</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>View</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-
     </dependencies>
-
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>

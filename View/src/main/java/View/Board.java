@@ -1,4 +1,4 @@
-package Main;
+package View;
 
 import Controller.Player;
 import Entity.Map;
@@ -18,7 +18,10 @@ import java.awt.event.KeyEvent;
 import java.util.Random;
 //import java.util.Map;
 
-
+/*
+*la classe de notre frame
+*@author Group1
+ */
 public class Board extends JPanel implements ActionListener{
 
     private Timer time;
@@ -39,6 +42,10 @@ public class Board extends JPanel implements ActionListener{
     int b = a.nextInt(100);
     //int b =2;
 
+    /*
+    *@see
+    * voici le constructeur de notre board(frame)
+     */
     public Board() {
 
 
@@ -54,7 +61,7 @@ public class Board extends JPanel implements ActionListener{
         setFocusable(true);
         time = new Timer(30, this);
         time.start();
-        //this.setBackground(Color.black);
+        this.setBackground(Color.black);
         //System.out.println(m.getA());
         //p.update();
         o.open();
@@ -238,6 +245,11 @@ public class Board extends JPanel implements ActionListener{
 
 
     }
+
+    /*
+    *la methode qui nous permet de paint nos diffrent element dans notre frame
+    * @see
+     */
     public void paint(Graphics g) {
 
 
@@ -424,6 +436,11 @@ public class Board extends JPanel implements ActionListener{
 
     }
 
+    /*
+    *La methode de notre key listener
+    * @see
+    * @author Group1
+     */
 
     public class AI extends KeyAdapter{
         @Override
