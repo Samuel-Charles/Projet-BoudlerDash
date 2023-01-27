@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a11226de-3fe1-49f6-8351-a0a8dd0f05dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entity/src/main/java/Entity/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entity/src/main/java/Entity/try1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/src/main/java/Main/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/src/main/java/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/Model/Diamonds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/Model/Finish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/Model/Ground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/Model/Walls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/src/main/java/View/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/src/main/java/Controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/src/main/java/Controller/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Main.java" afterDir="false" />
+    <list default="true" id="a11226de-3fe1-49f6-8351-a0a8dd0f05dc" name="Changes" comment="BoudlerDash">
+      <change beforePath="$PROJECT_DIR$/Main/src/main/java/Main/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/main/java/Main/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/Controller/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +79,16 @@
       <updated>1674798949712</updated>
       <workItem from="1674798962156" duration="2000" />
       <workItem from="1674803749133" duration="3833000" />
-      <workItem from="1674813911808" duration="2245000" />
+      <workItem from="1674813911808" duration="3434000" />
     </task>
+    <task id="LOCAL-00001" summary="BoudlerDash">
+      <created>1674818274233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674818274233</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,13 +97,29 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="6e21240d-2a4d-4f70-8c84-8398fb333403">
           <value>
             <State />
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="6e21240d-2a4d-4f70-8c84-8398fb333403" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BoudlerDash" />
+    <option name="LAST_COMMIT_MESSAGE" value="BoudlerDash" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
